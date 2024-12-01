@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero-12</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .logo{            
+            transition: transform 0.6s ease-in-out;
+
+        }
+        @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Custom class to animate on hover */
+.animate-bounce-on-hover:hover {
+    animation: bounce 0.5s ease-in-out;
+}
+    </style>
+</head>
+<body>
+    <div class="container max-w-[1920px] relative  mx-auto w-full">
+        <header class="flex justify-between items-center px-5 py-5 relative md:px-[50px] lg:px-[65px] xl:px-[90px] xl:py-[29px]">
+            <div>
+                <img src="./img/meta.png" class="lg:hidden xl:hidden">
+                <img src="./img/Group 1000003942.png" class="hidden xl:flex lg:flex">
+                
+            </div>
+            <ul class="xl:flex xl:gap-10 xl:items-center hidden ">
+                <li><a href="#" class="text-primary-color text-[16px] font-bodytext font-w4 leading-7">ABOUT-US</a></li>
+                <li><a href="#" class="text-[16px] font-bodytext font-w4 leading-7">SERVICES</a></li>
+                <li><a href="#" class="text-[16px] font-bodytext font-w4 leading-7">CAREER</a></li>
+                <li><a href="#" class="text-[16px] font-bodytext font-w4 leading-7">BLOG</a></li>
+            </ul>
+            <div class="flex items-center gap-4">
+                <!-- menu icon -->
+                 <div class="menu flex xl:hidden">
+                <i class="fa-solid fa-bars text-[22px] md:text-[30px] cursor-pointer hover:text-primary-color xl:hidden"></i></div>
+                <a href="#" 
+                class="bg-primary-color py-3 px-5 rounded-[30px] font-bodytext font-semibold 
+                       md:text-[14px] md:leading-[26px] text-[12px] leading-[22px] 
+                       hover:bg-slate-500 hover:text-yellow-100 
+                       transition-transform duration-300 ease-in 
+                       animate-bounce-on-hover">
+                 GET IN TOUCH
+             </a>
+                <div class="logo absolute bg-white top-0 left-0 w-full px-5 h-screen z-20 translate-x-[-2000px] md:px-[50px] lg:px-[65px]">
+                    <div class="flex justify-between py-5">
+                        <img src="./img/meta.png" class="lg:hidden xl:hidden">
+                        <img src="./img/Group 1000003942.png" class="hidden  lg:flex">
+
+                        <!-- cross icon -->
+                         <div class="cross flex items-center gap-5">
+                         <i class="fa-solid fa-xmark text-[22px] md:text-[40px]"></i>
+                         <a href="#" class="bg-primary-color py-3 px-5 rounded-[30px] font-bodytext font-semibold md:text-[14px] md:leading-[26px] text-[12px] leading-[22px] hover:bg-slate-500 hover:text-yellow-100 transition-transform duration-300 ease-in">GET IN TOUCH</a></div>
+                    </div>
+                    <ul class="flex gap-10 flex-col pt-[74px]">
+                        <li><a href="#" class="text-primary-color text-[36px] font-Roboto font-bold leading-[45px]">ABOUT-US</a></li>
+                        <li><a href="#" class="text-[36px] font-Roboto font-bold leading-[45px]">SERVICES</a></li>
+                        <li><a href="#" class="text-[36px] font-Roboto font-bold leading-[45px]">CAREER</a></li>
+                        <li><a href="#" class="text-[36px] font-Roboto font-bold leading-[45px]">BLOG</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="grid grid-cols-4 pt-[100px] px-5 md:grid md:grid-cols-8 md:px-[50px] lg:px-[65px] xl:px-[90px] xl:grid xl:col-span-12">
+            <div class="col-span-4 text-center flex flex-col gap-6 items-center md:col-span-8 xl:col-span-12">
+            <h1 class="col-span-4 text-clamp leading-responsive font-Roboto font-extrabold uppercase xl:font-black">
+                Lorem ipsum dolor sit amet
+            </h1>
+            <p class="font-w4 text-[16px] leading-6 md:leading-[28px] font-bodytext text-[#797979] text-center  md:max-w-[497px] lg:max-w-[540px] xl:max-w-[597px]">Consider using this if you need to provide more context on why you do what you do. Be engaging. Focus on delivering value to your visitors.</p>
+            <div class="flex gap-3 items-center">
+               <h3 class="font-semibold text-[16px] leading-7 font-bodytext">Watch Now</h3><a href="#"><img src="./img/Group 17.png" alt=""></a>
+                </div>
+            </div>
+        </main>
+        <div class="absolute top-[491px] left-0 w-full overflow-hidden">
+            <!-- Gradient Layer -->
+            <div 
+          class="opacity-[50%]"
+            style="background: linear-gradient(93.5deg, #FFA301 -21.33%, #FF6A00 120.81%); ">
+        </div>            
+            <!-- Images -->
+             <div class="absolute top-0 w-full">
+            <img src="./img/m-1.png" class="w-full h-auto md:hidden lg:hidden xl:hidden" alt="">
+            <img src="./img/distop-1.png" class="w-full hidden xl:flex lg:flex md:flex">
+        </div>
+       
+        <img src="./img/m-2.png" class="w-full h-auto  md:hidden lg:hidden xl:hidden" alt="">
+        <img src="./img/distop-2.png" class="w-full hidden xl:flex lg:flex md:flex">
+        </div>
+    </div>
+    <script>
+        let menu = document.querySelector('.menu');
+        let logo = document.querySelector('.logo');
+        let cross = document.querySelector('.cross');
+        menu.addEventListener('click',function(){
+            logo.classList.toggle('translate-x-[-2000px]');
+        });
+        cross.addEventListener('click', function(){
+            logo.classList.add('translate-x-[-2000px]')
+            logo.classList.toggle('translate-x-0');
+        
+
+        })
+    </script>
+</body>
+</html>
